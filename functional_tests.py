@@ -20,7 +20,7 @@ class NewVisitorTest(unittest.TestCase):
 		
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		self.assertEqual(
-			input.get_attribute('placeholder'),
+			inputbox.get_attribute('placeholder'),
 			'Enter a to-do item'
 		)
 		
